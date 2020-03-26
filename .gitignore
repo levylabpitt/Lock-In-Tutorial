@@ -1,2 +1,3 @@
-/src/Levy-Final Version/*.aliases
-/src/Levy-Final Version/*.lvlps
+*.aliases
+*.lvlps
+builds

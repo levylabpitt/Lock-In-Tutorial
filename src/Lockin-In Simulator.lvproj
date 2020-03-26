@@ -76,22 +76,20 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Lock-In Simulator Application</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/user/patrick/git/Lockin-Tutorial/builds/Application</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/Application</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7181C9C7-4414-11E4-BCCA-1C6F6595A9EC}</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Lockin-In Simulator.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/user/patrick/git/Lockin-Tutorial/builds/Application/Lockin-In Simulator.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Bld_version.major" Type="Int">2020</Property>
+				<Property Name="Destination[0].destName" Type="Str">Lock-In Simulator.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Application/Lock-In Simulator.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/user/patrick/git/Lockin-Tutorial/builds/Application/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref"></Property>
-				<Property Name="Source[0].itemID" Type="Str">{1BFD2C6F-8C96-4496-956F-52B1D0D9AF55}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/build support/Lock-In.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1903BFF0-23D0-47A3-B7C2-2198BB809CE6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/src/subVIs/lowpass filter.vi</Property>
@@ -118,12 +116,13 @@
 				<Property Name="Source[6].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="TgtF_companyName" Type="Str">University of Pittsburgh</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Lock-In Simulator Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">Lock-In Simulator Application</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright 2014 </Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright 2014-2020 </Property>
 				<Property Name="TgtF_productName" Type="Str">Lock-In Simulator Application</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{7181C84B-4414-11E4-BCCA-1C6F6595A9EC}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Lockin-In Simulator.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Lock-In Simulator.exe</Property>
 			</Item>
 			<Item Name="Lock-In Simulator Installer" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">Lock-In Simulator</Property>
@@ -180,11 +179,12 @@
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{E7DBF016-365A-40B6-9526-B4D0B4830F51}</Property>
 				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">University of Pittsburgh</Property>
-				<Property Name="INST_buildLocation" Type="Path">/C/user/patrick/git/Lockin-Tutorial/builds/Installer</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/Installer</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
 				<Property Name="INST_buildSpecName" Type="Str">Lock-In Simulator Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{07D2EAE1-65B9-495C-89F5-B805E7EE7C32}</Property>
 				<Property Name="INST_productName" Type="Str">Lock-In Simulator</Property>
-				<Property Name="INST_productVersion" Type="Str">1.1.0</Property>
+				<Property Name="INST_productVersion" Type="Str">20.0.0</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008024</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Pittsburgh</Property>
@@ -199,7 +199,7 @@
 				<Property Name="RegDestCount" Type="Int">1</Property>
 				<Property Name="Source[0].dest" Type="Str">{07D2EAE1-65B9-495C-89F5-B805E7EE7C32}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{07D2EAE1-65B9-495C-89F5-B805E7EE7C32}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">Lockin-In Simulator.exe</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">Lock-In Simulator.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Lock-In Simulator</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Lock-In Simulator</Property>
