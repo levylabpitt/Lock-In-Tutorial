@@ -6,8 +6,6 @@ The Lock-in amplifier tutorial will help students understand basic and some adva
 
 This tutorial is research-based and explicitly addresses common difficulties that graduate students have with LIAs in their experimental research. The tutorial also comes bundled with a computer-simulated lock-in amplifier that is used with the tutorial but can also be used independently to explore the properties of LIAs.  It also helps students develop an intuitive feel for many of the possible situations that they may encounter in their experiments.
 
-The lock-in amplifier simulation requires the download and installation of the Labview Run Time engine.
-
 ## How to install
 
 The latest installer file can be found [here](https://github.com/levylabpitt/Lockin-Tutorial/releases/latest).
