@@ -13,6 +13,9 @@
 		<Item Name="build support" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Lock-In.ico" Type="Document" URL="../../build support/Lock-In.ico"/>
+			<Item Name="Lock-In.bmp" Type="Document" URL="../../build support/Lock-In.bmp"/>
+			<Item Name="Lock-In.png" Type="Document" URL="../../build support/Lock-In.png"/>
+			<Item Name="Lock-In.icns" Type="Document" URL="../../build support/Lock-In.icns"/>
 			<Item Name="LIA Post Build.vi" Type="VI" URL="../../build support/LIA Post Build.vi"/>
 			<Item Name="PostBuildSupport.lvclass" Type="LVClass" URL="../../build support/PostBuildSupport/PostBuildSupport.lvclass"/>
 		</Item>
@@ -64,7 +67,7 @@
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="lvanlys.framework" Type="Document" URL="/&lt;resource&gt;/lvanlys.framework"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Lock-In Simulator Application" Type="EXE">
@@ -81,15 +84,16 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7181C9C7-4414-11E4-BCCA-1C6F6595A9EC}</Property>
 				<Property Name="Bld_version.major" Type="Int">2020</Property>
-				<Property Name="Destination[0].destName" Type="Str">Lock-In Simulator.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/Application/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Destination[0].destName" Type="Str">Lock-In Simulator.app</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Application/Lock-In Simulator.app</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/Application/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/build support/Lock-In.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{ADA9D713-2378-419B-8717-1B940E6B358E}</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1903BFF0-23D0-47A3-B7C2-2198BB809CE6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/src/subVIs/lowpass filter.vi</Property>
@@ -115,14 +119,13 @@
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/src/Lock-In Simulator.vi</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
 				<Property Name="TgtF_companyName" Type="Str">University of Pittsburgh</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Lock-In Simulator Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">Lock-In Simulator Application</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright 2014-2020 </Property>
 				<Property Name="TgtF_productName" Type="Str">Lock-In Simulator Application</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{7181C84B-4414-11E4-BCCA-1C6F6595A9EC}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Lock-In Simulator.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Lock-In Simulator.app</Property>
 			</Item>
 			<Item Name="Lock-In Simulator Application (mac)" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -139,14 +142,16 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6EAA94E5-F7C3-4591-8B37-5D65223A7815}</Property>
 				<Property Name="Bld_version.major" Type="Int">2020</Property>
-				<Property Name="Destination[0].destName" Type="Str">Lock-In Simulator.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/Application (mac)/Lock-In Simulator.exe</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Destination[0].destName" Type="Str">Lock-In Simulator.app</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Application (mac)/NI_AB_PROJECTNAME.app</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/Application (mac)/Lock-In Simulator.app/Support</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CB68DA30-3223-4FF3-BCDB-8631819585DC}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/build support/Lock-In.icns</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[0].itemID" Type="Str">{89AD9B40-AC60-4A8B-B0B7-220BFA94AAFE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/src/Lock-In Simulator.vi</Property>
@@ -158,29 +163,27 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/src/subVIs</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Lock-In Simulator Application (mac)</Property>
 				<Property Name="TgtF_internalName" Type="Str">com.company.Lock-In-Simulator</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright 2020 </Property>
 				<Property Name="TgtF_productName" Type="Str">Lock-In Simulator Application (mac)</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{A1C80802-238F-42B1-A2F3-84644F7797FC}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Lock-In Simulator.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Lock-In Simulator.app</Property>
 			</Item>
 			<Item Name="Lock-In Simulator Installer" Type="Installer">
+				<Property Name="DestinationCount" Type="Int">1</Property>
 				<Property Name="Destination[0].name" Type="Str">Lock-In Simulator</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{07D2EAE1-65B9-495C-89F5-B805E7EE7C32}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
-				<Property Name="DestinationCount" Type="Int">1</Property>
+				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
 				<Property Name="DistPart[0].productID" Type="Str">{7683E40C-81DF-43DC-BA19-872415406967}</Property>
 				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2016 f5</Property>
+				<Property Name="DistPart[0].SoftDepCount" Type="Int">14</Property>
 				<Property Name="DistPart[0].SoftDep[0].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI LabVIEW Runtime 2016 Non-English Support.</Property>
 				<Property Name="DistPart[0].SoftDep[0].upgradeCode" Type="Str">{72AEEB03-DF6A-4C90-B44E-22B1E74CF14F}</Property>
-				<Property Name="DistPart[0].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI ActiveX Container</Property>
-				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
 				<Property Name="DistPart[0].SoftDep[10].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[0].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
 				<Property Name="DistPart[0].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
@@ -193,6 +196,9 @@
 				<Property Name="DistPart[0].SoftDep[13].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[0].SoftDep[13].productName" Type="Str">NI Error Reporting 2017</Property>
 				<Property Name="DistPart[0].SoftDep[13].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[0].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
 				<Property Name="DistPart[0].SoftDep[2].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI System Web Server 16.0</Property>
 				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
@@ -217,9 +223,9 @@
 				<Property Name="DistPart[0].SoftDep[9].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[0].SoftDep[9].productName" Type="Str">NI VC2010MSMs</Property>
 				<Property Name="DistPart[0].SoftDep[9].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
-				<Property Name="DistPart[0].SoftDepCount" Type="Int">14</Property>
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{E7DBF016-365A-40B6-9526-B4D0B4830F51}</Property>
-				<Property Name="DistPartCount" Type="Int">1</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">16008024</Property>
 				<Property Name="INST_author" Type="Str">University of Pittsburgh</Property>
 				<Property Name="INST_buildLocation" Type="Path">../builds/Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
@@ -227,31 +233,29 @@
 				<Property Name="INST_defaultDir" Type="Str">{07D2EAE1-65B9-495C-89F5-B805E7EE7C32}</Property>
 				<Property Name="INST_productName" Type="Str">Lock-In Simulator</Property>
 				<Property Name="INST_productVersion" Type="Str">20.0.0</Property>
-				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">16008024</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Pittsburgh</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
 				<Property Name="MSI_distID" Type="Str">{FEFFAB99-6963-4B64-9111-0E71790D9C76}</Property>
 				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{047C1B5E-5A13-42EB-85EF-9EB12EA5D19A}</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
 				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
 				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
 				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
-				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
 				<Property Name="Source[0].dest" Type="Str">{07D2EAE1-65B9-495C-89F5-B805E7EE7C32}</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{07D2EAE1-65B9-495C-89F5-B805E7EE7C32}</Property>
 				<Property Name="Source[0].File[0].name" Type="Str">Lock-In Simulator.exe</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Lock-In Simulator</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Lock-In Simulator</Property>
-				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{7181C84B-4414-11E4-BCCA-1C6F6595A9EC}</Property>
-				<Property Name="Source[0].FileCount" Type="Int">1</Property>
 				<Property Name="Source[0].name" Type="Str">Lock-In Simulator Application</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Lock-In Simulator Application</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
 		</Item>
 	</Item>
