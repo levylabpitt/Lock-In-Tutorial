@@ -12,5 +12,11 @@ The latest installer file can be found [here](https://github.com/levylabpitt/Loc
 
 You can report them [here](https://github.com/levylabpitt/Lock-In-Tutorial/issues).
 
+## License
+
+Education materials are released under a [Creative Commons Attribution 3.0 license](https://creativecommons.org/licenses/by/3.0/). Further distribution of this work must maintain attribution to the published article's author(s), title, proceedings citation, and DOI.
+
+The software is released under the [MIT licence](https://choosealicense.com/licenses/mit/). Distribution must retain the copyright and attribution.
+
 ## Reference
 1. Seth DeVore, Alexandre Gauthier, Jeremy Levy, and Chandralekha Singh, [Improving Students' Understanding of Lock-In Amplifiers](http://dx.doi.org/10.1119/perc.2013.pr.018), Physics Education Research Conference 2013, Part of the PER Conference series, Portland, OR: July 17-18, 2013, Pages 121-124 
