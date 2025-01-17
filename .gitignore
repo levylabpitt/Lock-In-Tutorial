@@ -4,3 +4,4 @@ builds
 *.lvlps
 *.aliases
 *.lvlps
+.DS_Store

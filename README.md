@@ -20,3 +20,4 @@ The software is released under the [MIT license](https://choosealicense.com/lice
 
 ## Reference
 1. Seth DeVore, Alexandre Gauthier, Jeremy Levy, and Chandralekha Singh, [Improving Students' Understanding of Lock-In Amplifiers](http://dx.doi.org/10.1119/perc.2013.pr.018), Physics Education Research Conference 2013, Part of the PER Conference series, Portland, OR: July 17-18, 2013, Pages 121-124 
+
