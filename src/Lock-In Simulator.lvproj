@@ -29,6 +29,9 @@
 				<Item Name="signal input-A.vi" Type="VI" URL="../subVIs/signal input-A.vi"/>
 				<Item Name="sin-cos-generatorA.vi" Type="VI" URL="../subVIs/sin-cos-generatorA.vi"/>
 			</Item>
+			<Item Name="Test" Type="Folder">
+				<Item Name="test ref.vi" Type="VI" URL="../tests/test ref.vi"/>
+			</Item>
 			<Item Name="Lock-In Simulator.vi" Type="VI" URL="../Lock-In Simulator.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
